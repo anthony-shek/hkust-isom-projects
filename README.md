@@ -97,7 +97,7 @@ Configured a GRE tunnel between two routers to create a virtual private network 
 
 **Shek Tsz Lung**  
 📱 (+852) 6765 0553  
-✉️ tszlunghshek@gmail.com  
+✉️ tszlungshek@gmail.com  
 
 ---
 
