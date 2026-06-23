@@ -1,4 +1,3 @@
-# hkust-isom-projects
 # HKUST ISOM Projects
 
 A collection of projects from my BBA in Information Systems coursework at HKUST, showcasing my skills in Python programming, data analytics, and network security.
@@ -7,30 +6,59 @@ A collection of projects from my BBA in Information Systems coursework at HKUST,
 
 ## 📁 Projects
 
-### 1. Automated Property Data Scraping (ISOM3400)
-**Python** | Selenium, CSV, JSON
+### 1. Automated Rental Data Scraping (ISOM3400)
+**Language:** Python (Selenium)
 
-An automated web scraping system that extracts rental property data from public Hong Kong real estate websites. Features include automated form filling, data extraction, CSV export, and search history tracking.
+An automated web scraping system that extracts rental property data from public Hong Kong real estate websites.
 
-👉 [View Project](isom3400-data-scraping/)
+**Features:**
+- Automated form filling and filter application (district, budget, area, rooms)
+- Dynamic data extraction with error handling
+- CSV export for structured storage
+- JSON-based search history tracking
+- Statistical analysis (price ranges, averages, district comparisons)
+
+**Files:**
+- [`isom3400_rental_data_scraping.py`](isom3400_rental_data_scraping.py) – Main script
+
+**Cybersecurity Relevance:** Automation, data collection, and structured log processing are transferable to security log analysis and threat monitoring.
 
 ---
 
 ### 2. Predictive Regression Model (ISOM2600)
-**Python** | Statsmodels, Pandas, Matplotlib
+**Language:** Python (Statsmodels, Pandas, Matplotlib)
 
-A multiple linear regression model built to predict California housing values using demographic and geographic variables. Applied residual analysis (Q-Q plots, histograms) for anomaly detection and model validation.
+A multiple linear regression model built to predict California housing values using demographic and geographic variables.
 
-👉 [View Project](isom2600-regression-model/)
+**Features:**
+- Data preprocessing and feature selection
+- Residual analysis (Q-Q plots, histograms) for model validation
+- Model evaluation (RMSE, Adjusted R-squared)
+- Pattern recognition and anomaly detection
+
+**Files:**
+- [`ISOM2600_regression_model.ipynb`](ISOM2600_regression_model.ipynb) – Jupyter/Colab notebook with code and outputs
+- [`ISOM2600_regression_model.html`](ISOM2600_regression_model.html) – HTML version for easy viewing in any browser
+
+**Cybersecurity Relevance:** Pattern recognition and anomaly detection are fundamental to identifying security threats.
 
 ---
 
-### 3. GRE Tunnel VPN Configuration (ISOM3380)
-**Cisco Packet Tracer** | EIGRP, GRE, VPN
+### 3. GRE Tunnel & Routing Configuration (ISOM3380)
+**Tool:** Cisco Packet Tracer
 
-Configured a GRE tunnel between two routers to create a virtual private network (VPN) for secure site-to-site communication. Configured EIGRP as the routing protocol for both the private network and the GRE tunnel.
+Configured a GRE tunnel between two routers to create a virtual private network (VPN) for secure site-to-site communication. Implemented EIGRP for private network routing and OSPF for public network routing.
 
-👉 [View Project](isom3380-networking-lab/)
+**Features:**
+- GRE tunnel configuration for VPN
+- EIGRP routing protocol
+- OSPF routing protocol
+- Site-to-site secure communication
+
+**Files:**
+- [`isom3380_gre_routing.pkt`](isom3380_gre_routing.pkt) – Cisco Packet Tracer file
+
+**Cybersecurity Relevance:** VPN implementation, secure site-to-site communication, and network segmentation fundamentals.
 
 ---
 
@@ -38,21 +66,30 @@ Configured a GRE tunnel between two routers to create a virtual private network 
 
 | Category | Tools/Languages |
 | :--- | :--- |
-| **Programming** | Python, SQL |
+| **Programming** | Python |
 | **Python Libraries** | Selenium, Pandas, NumPy, Statsmodels, Matplotlib, Seaborn |
-| **Networking** | Cisco Packet Tracer, EIGRP, OSPF, ACLs, VLANs, NAT/PAT, GRE |
+| **Networking** | Cisco Packet Tracer, EIGRP, OSPF, GRE |
 
 ---
 
-## 🔒 Cybersecurity Relevance
+## 🔒 Cybersecurity Relevance Summary
 
-These projects demonstrate skills directly transferable to security operations:
+| Skill | Project | Security Application |
+| :--- | :--- | :--- |
+| Automation & Data Collection | Data Scraping | Security log collection and analysis |
+| Pattern Recognition | Regression Model | Threat identification and anomaly detection |
+| VPN & Secure Communication | GRE Tunnel | Secure site-to-site connectivity |
+| Network Configuration | GRE Tunnel | Network access control fundamentals |
 
-- **Automation & data collection** – Security log collection and analysis
-- **Pattern recognition & anomaly detection** – Threat identification
-- **Network access control (ACLs, VLANs)** – Endpoint hygiene and network segmentation
-- **Secure communication (GRE tunnels, VPNs)** – Secure site-to-site connectivity
-- **Technical documentation** – Report preparation and incident documentation
+---
+
+## 🚀 How to View Each Project
+
+| Project | How to View |
+| :--- | :--- |
+| **Data Scraping** | Open `isom3400_rental_data_scraping.py` in any text editor or IDE |
+| **Regression Model** | Open `ISOM2600_regression_model.html` in any web browser (or `.ipynb` in Jupyter/Colab) |
+| **GRE Tunnel** | Download `isom3380_gre_routing.pkt` and open with Cisco Packet Tracer |
 
 ---
 
@@ -61,6 +98,7 @@ These projects demonstrate skills directly transferable to security operations:
 **Shek Tsz Lung**  
 📱 (+852) 6765 0553  
 ✉️ tszlunghshek@gmail.com  
+
 ---
 
 *Last Updated: June 2025*
