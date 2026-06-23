@@ -62,7 +62,7 @@ Configured a GRE tunnel between two routers to create a virtual private network 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Category | Tools/Languages |
 | :--- | :--- |
@@ -72,7 +72,7 @@ Configured a GRE tunnel between two routers to create a virtual private network 
 
 ---
 
-## 🔒 Cybersecurity Relevance Summary
+## Cybersecurity Relevance Summary
 
 | Skill | Project | Security Application |
 | :--- | :--- | :--- |
@@ -83,7 +83,7 @@ Configured a GRE tunnel between two routers to create a virtual private network 
 
 ---
 
-## 🚀 How to View Each Project
+## How to View Each Project
 
 | Project | How to View |
 | :--- | :--- |
